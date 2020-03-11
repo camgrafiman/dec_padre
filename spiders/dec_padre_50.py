@@ -1,10 +1,11 @@
-﻿from scrapy.item import Field
-from scrapy.item import Item
-from scrapy.spiders import Spider
-from scrapy.selector import Selector
-from scrapy.loader import ItemLoader
-from scrapy.exporters import XmlItemExporter
-from scrapy.loader.processors import TakeFirst
+﻿
+import Field
+import Item
+import Spider
+import Selector
+import ItemLoader
+import XmlItemExporter
+import TakeFirst
 
 # construir los campos del archivo:
 
