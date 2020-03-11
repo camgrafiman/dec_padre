@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'dec_padre_general'
+BOT_NAME = 'dec_padre'
 
-SPIDER_MODULES = ['dec_padre_general.spiders']
-NEWSPIDER_MODULE = 'dec_padre_general.spiders'
+SPIDER_MODULES = ['dec_padre.spiders']
+NEWSPIDER_MODULE = 'dec_padre.spiders'
 
 #Exportar como CSV Feed
 FEED_FORMAT = "csv"
